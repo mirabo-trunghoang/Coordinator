@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/mirabo-trunghoang/Merge", branch: "master"),
-        .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", branch: "master"),
+        .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", .exact(from: "0.2.2")),
     ],
     targets: [
         .target(
